@@ -1,0 +1,229 @@
+{
+  "channels": [
+    {
+      "id": "ch-all",
+      "name": "All Videos",
+      "icon": "🌐"
+    },
+    {
+      "id": "ch-movies",
+      "name": "Movies",
+      "icon": "🎬"
+    },
+    {
+      "id": "ch-cartoons",
+      "name": "Cartoons",
+      "icon": "🧸"
+    },
+    {
+      "id": "ch-docs",
+      "name": "Documentaries",
+      "icon": "📚"
+    },
+    {
+      "id": "ch-music",
+      "name": "Music",
+      "icon": "🎵"
+    },
+    {
+      "id": "ch-tech",
+      "name": "Tech",
+      "icon": "💻"
+    }
+  ],
+  "videos": [
+    {
+      "id": "v1",
+      "title": "Big Buck Bunny",
+      "channel": "ch-movies",
+      "category": "Movies",
+      "type": "youtube",
+      "source": "https://www.youtube.com/watch?v=aqz-KE-bpKQ",
+      "duration": "9:56",
+      "thumb": "https://i.ytimg.com/vi/aqz-KE-bpKQ/hqdefault.jpg",
+      "desc": "A giant rabbit with a heart of gold gets revenge on three bullying rodents in this classic Blender open movie.",
+      "tags": [
+        "animation",
+        "comedy",
+        "blender"
+      ]
+    },
+    {
+      "id": "v2",
+      "title": "Sintel",
+      "channel": "ch-movies",
+      "category": "Movies",
+      "type": "youtube",
+      "source": "https://www.youtube.com/watch?v=puLAJaabJh0",
+      "duration": "14:48",
+      "thumb": "https://i.ytimg.com/vi/puLAJaabJh0/hqdefault.jpg",
+      "desc": "A girl searches for the dragon she once befriended, on an epic journey through mountains and deserts.",
+      "tags": [
+        "animation",
+        "fantasy",
+        "blender"
+      ]
+    },
+    {
+      "id": "v3",
+      "title": "Tears of Steel",
+      "channel": "ch-movies",
+      "category": "Movies",
+      "type": "youtube",
+      "source": "https://www.youtube.com/watch?v=41hv2tW5Lc4",
+      "duration": "12:14",
+      "thumb": "https://i.ytimg.com/vi/41hv2tW5Lc4/hqdefault.jpg",
+      "desc": "In a future Amsterdam, a group of warriors and scientists must recreate the past to save humanity from robots.",
+      "tags": [
+        "animation",
+        "vfx",
+        "sci-fi",
+        "blender"
+      ]
+    },
+    {
+      "id": "v4",
+      "title": "Elephants Dream",
+      "channel": "ch-cartoons",
+      "category": "Cartoons",
+      "type": "youtube",
+      "source": "https://www.youtube.com/watch?v=TLkA0RELQ1g",
+      "duration": "10:53",
+      "thumb": "https://i.ytimg.com/vi/TLkA0RELQ1g/hqdefault.jpg",
+      "desc": "The world's first open movie, from 2006: two characters explore a strange and seemingly endless machine.",
+      "tags": [
+        "animation",
+        "surreal",
+        "blender"
+      ]
+    },
+    {
+      "id": "v5",
+      "title": "Cosmos Laundromat",
+      "channel": "ch-cartoons",
+      "category": "Cartoons",
+      "type": "youtube",
+      "source": "https://www.youtube.com/watch?v=fZDPckGn8Jk",
+      "duration": "12:10",
+      "thumb": "https://i.ytimg.com/vi/fZDPckGn8Jk/hqdefault.jpg",
+      "desc": "A depressed sheep named Franck meets a salesman who offers him an adventure he will never forget.",
+      "tags": [
+        "animation",
+        "comedy",
+        "blender"
+      ]
+    },
+    {
+      "id": "v6",
+      "title": "Agent 327: Operation Barbershop",
+      "channel": "ch-cartoons",
+      "category": "Cartoons",
+      "type": "youtube",
+      "source": "https://www.youtube.com/watch?v=mN0zPOpADL4",
+      "duration": "3:51",
+      "thumb": "https://i.ytimg.com/vi/mN0zPOpADL4/hqdefault.jpg",
+      "desc": "A Dutch secret agent investigates a suspicious barbershop, but he is being tailed by mercenary Boris Kloris.",
+      "tags": [
+        "animation",
+        "action",
+        "comedy",
+        "blender"
+      ]
+    },
+    {
+      "id": "v7",
+      "title": "Spring - Blender Open Movie",
+      "channel": "ch-cartoons",
+      "category": "Cartoons",
+      "type": "youtube",
+      "source": "https://www.youtube.com/watch?v=WhWc3b3KhnY",
+      "duration": "7:43",
+      "thumb": "https://i.ytimg.com/vi/WhWc3b3KhnY/hqdefault.jpg",
+      "desc": "A young shepherd and her dog must brave ancient spirits to keep the cycle of seasons turning.",
+      "tags": [
+        "animation",
+        "fantasy",
+        "blender"
+      ]
+    },
+    {
+      "id": "v8",
+      "title": "Coffee Run",
+      "channel": "ch-cartoons",
+      "category": "Cartoons",
+      "type": "youtube",
+      "source": "https://www.youtube.com/watch?v=PVGeM40dABA",
+      "duration": "3:04",
+      "thumb": "https://i.ytimg.com/vi/PVGeM40dABA/hqdefault.jpg",
+      "desc": "Fueled by caffeine, a young woman runs through the bittersweet memories of her past relationship.",
+      "tags": [
+        "animation",
+        "blender"
+      ]
+    },
+    {
+      "id": "v9",
+      "title": "Sprite Fright",
+      "channel": "ch-cartoons",
+      "category": "Cartoons",
+      "type": "youtube",
+      "source": "https://www.youtube.com/watch?v=_cMxraX_5RE",
+      "duration": "10:22",
+      "thumb": "https://i.ytimg.com/vi/_cMxraX_5RE/hqdefault.jpg",
+      "desc": "Rowdy teenagers camping in a British forest discover that the mushroom creatures living there are not as friendly as they seem.",
+      "tags": [
+        "animation",
+        "horror-comedy",
+        "blender"
+      ]
+    },
+    {
+      "id": "v10",
+      "title": "The Internet's Own Boy: The Story of Aaron Swartz",
+      "channel": "ch-docs",
+      "category": "Documentaries",
+      "type": "youtube",
+      "source": "https://www.youtube.com/watch?v=M85UvH0TRPc",
+      "duration": "1:45:12",
+      "thumb": "https://i.ytimg.com/vi/M85UvH0TRPc/hqdefault.jpg",
+      "desc": "The story of programming prodigy and information activist Aaron Swartz, from RSS to Reddit and his fight for open access.",
+      "tags": [
+        "documentary",
+        "tech",
+        "activism"
+      ]
+    },
+    {
+      "id": "v11",
+      "title": "Steve Jobs' 2005 Stanford Commencement Address",
+      "channel": "ch-tech",
+      "category": "Tech",
+      "type": "youtube",
+      "source": "https://www.youtube.com/watch?v=UF8uR6Z6KLc",
+      "duration": "15:06",
+      "thumb": "https://i.ytimg.com/vi/UF8uR6Z6KLc/hqdefault.jpg",
+      "desc": "Your time is limited, so don't waste it living someone else's life. Jobs' legendary speech about life, death, and following your heart.",
+      "tags": [
+        "tech",
+        "speech",
+        "inspiration"
+      ]
+    },
+    {
+      "id": "v12",
+      "title": "Lofi Girl - 24/7 Beats to Relax/Study To",
+      "channel": "ch-music",
+      "category": "Music",
+      "type": "youtube",
+      "source": "https://www.youtube.com/watch?v=jfKfPfyJRdk",
+      "duration": "24/7",
+      "thumb": "/img/lofi-thumb.jpg",
+      "desc": "Endless chill lofi beats, streaming live around the clock. Perfect for studying, working, or unwinding.",
+      "tags": [
+        "music",
+        "live",
+        "chill"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DWIM TV — Stream Free</title>
+  <meta name="description" content="DWIM TV — your free TV-style streaming app. Movies, cartoons, documentaries, tech, music and more.">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📺</text></svg>">
+  <link rel="stylesheet" href="css/styles.css">
+<script src="https://sites.super.myninja.ai/_assets/ninja-daytona-script.js"></script>
+</head>
+<body>
+
+  <!-- Top Bar -->
+  <header class="topbar">
+    <a class="brand" href="#" onclick="goHome(event)">
+      <span class="tv-icon">📺</span>
+      <span>DWIM <b>TV</b></span>
+    </a>
+    <div class="live-dot"><span class="pulse"></span><span class="word">ON AIR</span></div>
+    <div class="searchwrap">
+      <span class="icon">⌕</span>
+      <input id="search" type="text" placeholder="Search movies, shows, docs…" autocomplete="off">
+    </div>
+  </header>
+
+  <!-- Channel Rail -->
+  <nav class="channels" id="channels"></nav>
+
+  <!-- Main -->
+  <main id="main">
+    <div class="loading" id="loading"><div class="spinner"></div>Loading your channels…</div>
+  </main>
+
+  <!-- Player Modal -->
+  <div class="player-modal" id="playerModal">
+    <div class="player-box">
+      <div class="player-head">
+        <h3 id="playerTitle">Now Playing</h3>
+        <button class="btn-close" onclick="closePlayer()">✕</button>
+      </div>
+      <div class="player-frame" id="playerFrame"></div>
+      <div class="player-info">
+        <div class="meta-row">
+          <span class="cat" id="playerCat">CATEGORY</span>
+          <span id="playerDur">—</span>
+          <span id="playerViews">—</span>
+    </div>
+        <p id="playerDesc">Pick a video to start streaming.</p>
+      </div>
+    </div>
+  </div>
+
+  <footer class="footer">
+    <p><b>DWIM TV</b> — demo content is open-source / publicly available media.</p>
+    <p>Videos are streamed from external sources. Not affiliated with any provider.</p>
+  </footer>
+
+  <script src="js/app.js"></script>
+</body>
+</html>
