@@ -16,6 +16,11 @@
       "icon": "🧸"
     },
     {
+      "id": "ch-church",
+      "name": "Church",
+      "icon": "⛪"
+    },
+    {
       "id": "ch-docs",
       "name": "Documentaries",
       "icon": "📚"
@@ -216,13 +221,234 @@
       "category": "Music",
       "type": "youtube",
       "source": "https://www.youtube.com/watch?v=jfKfPfyJRdk",
-      "duration": "24/7",
-      "thumb": "/img/lofi-thumb.jpg",
+      "duration": "LIVE",
+      "thumb": "https://i.ytimg.com/vi/jfKfPfyJRdk/hqdefault.jpg",
       "desc": "Endless chill lofi beats, streaming live around the clock. Perfect for studying, working, or unwinding.",
       "tags": [
         "music",
         "live",
         "chill"
+      ]
+    },
+    {
+      "id": "c1",
+      "title": "Never Seen Before — Prophet T.B. Joshua's Early Ministry",
+      "channel": "ch-church",
+      "category": "Church",
+      "type": "youtube",
+      "source": "https://www.youtube.com/watch?v=ldWEzF0ApBQ",
+      "duration": "17:40",
+      "thumb": "https://i.ytimg.com/vi/ldWEzF0ApBQ/hqdefault.jpg",
+      "desc": "Rare archival footage from Prophet T.B. Joshua's earliest ministry days at The Synagogue, Church Of All Nations.",
+      "tags": [
+        "tb joshua",
+        "early ministry",
+        "rare footage",
+        "prophet"
+      ]
+    },
+    {
+      "id": "c2",
+      "title": "T.B. Joshua's First Ever Crusade in 1992",
+      "channel": "ch-church",
+      "category": "Church",
+      "type": "youtube",
+      "source": "https://www.youtube.com/watch?v=AKCsjHLVqXM",
+      "duration": "1:00",
+      "thumb": "https://i.ytimg.com/vi/AKCsjHLVqXM/hqdefault.jpg",
+      "desc": "A precious one-minute glimpse of the very first crusade of Prophet T.B. Joshua, held in 1992.",
+      "tags": [
+        "tb joshua",
+        "1992",
+        "crusade",
+        "early ministry"
+      ]
+    },
+    {
+      "id": "c3",
+      "title": "Rare Footage from Prophet T.B. Joshua's Early Ministry",
+      "channel": "ch-church",
+      "category": "Church",
+      "type": "youtube",
+      "source": "https://www.youtube.com/watch?v=5zkVQoS4SLk",
+      "duration": "1:23",
+      "thumb": "https://i.ytimg.com/vi/5zkVQoS4SLk/hqdefault.jpg",
+      "desc": "Recovered early-ministry footage showing the humble beginnings of the ministry in Lagos, Nigeria.",
+      "tags": [
+        "tb joshua",
+        "rare footage",
+        "early ministry",
+        "nigeria"
+      ]
+    },
+    {
+      "id": "c4",
+      "title": "Episode 02 — Rare Footage from Prophet T.B. Joshua's Early Ministry",
+      "channel": "ch-church",
+      "category": "Church",
+      "type": "youtube",
+      "source": "https://www.youtube.com/watch?v=KMJGBBIkyuw",
+      "duration": "2:55",
+      "thumb": "https://i.ytimg.com/vi/KMJGBBIkyuw/hqdefault.jpg",
+      "desc": "Part two of the recovered early-ministry archive series from Emmanuel TV Connect.",
+      "tags": [
+        "tb joshua",
+        "rare footage",
+        "early ministry",
+        "emmanuel tv"
+      ]
+    },
+    {
+      "id": "c5",
+      "title": "Rare Footage of Prophet T.B. Joshua's Early Ministry",
+      "channel": "ch-church",
+      "category": "Church",
+      "type": "youtube",
+      "source": "https://www.youtube.com/watch?v=GSDdRACuMeI",
+      "duration": "4:52",
+      "thumb": "https://i.ytimg.com/vi/GSDdRACuMeI/hqdefault.jpg",
+      "desc": "A look back at the prayer lines and early services that shaped the ministry in its first years.",
+      "tags": [
+        "tb joshua",
+        "rare footage",
+        "prayer",
+        "early ministry"
+      ]
+    },
+    {
+      "id": "c6",
+      "title": "Rare Footage — T.B. Joshua Early Church",
+      "channel": "ch-church",
+      "category": "Church",
+      "type": "youtube",
+      "source": "https://www.youtube.com/watch?v=qoTL65Ur-GU",
+      "duration": "4:50",
+      "thumb": "https://i.ytimg.com/vi/qoTL65Ur-GU/hqdefault.jpg",
+      "desc": "Inside the early church: the small beginnings before the auditorium, when the congregation gathered in humility.",
+      "tags": [
+        "tb joshua",
+        "early church",
+        "rare footage",
+        "scoan"
+      ]
+    },
+    {
+      "id": "c7",
+      "title": "Prophet T.B. Joshua's Early Ministry",
+      "channel": "ch-church",
+      "category": "Church",
+      "type": "youtube",
+      "source": "https://www.youtube.com/watch?v=E5IwweeGWfQ",
+      "duration": "17:40",
+      "thumb": "https://i.ytimg.com/vi/E5IwweeGWfQ/hqdefault.jpg",
+      "desc": "Extended documentary-style footage tracing the calling and early years of Prophet T.B. Joshua.",
+      "tags": [
+        "tb joshua",
+        "early ministry",
+        "documentary",
+        "prophet"
+      ]
+    },
+    {
+      "id": "c8",
+      "title": "The Raw Power of God Falls on Children — T.B. Joshua Early Ministry",
+      "channel": "ch-church",
+      "category": "Church",
+      "type": "youtube",
+      "source": "https://www.youtube.com/watch?v=k-iiyKZ6KKg",
+      "duration": "9:39",
+      "thumb": "https://i.ytimg.com/vi/k-iiyKZ6KKg/hqdefault.jpg",
+      "desc": "Moments from the early ministry as the power of God moves mightily, even upon little children.",
+      "tags": [
+        "tb joshua",
+        "early ministry",
+        "holy spirit",
+        "prayer"
+      ]
+    },
+    {
+      "id": "c9",
+      "title": "Be An Imitator of God — Prophet T.B. Joshua Sermon",
+      "channel": "ch-church",
+      "category": "Church",
+      "type": "youtube",
+      "source": "https://www.youtube.com/watch?v=CJPPPl1iscI",
+      "duration": "44:58",
+      "thumb": "https://i.ytimg.com/vi/CJPPPl1iscI/hqdefault.jpg",
+      "desc": "A full sermon from Prophet T.B. Joshua: what it means to walk as an imitator of God in daily life.",
+      "tags": [
+        "tb joshua",
+        "sermon",
+        "teaching",
+        "faith"
+      ]
+    },
+    {
+      "id": "c10",
+      "title": "Hold On and Keep Fighting — Prophet T.B. Joshua Sermon",
+      "channel": "ch-church",
+      "category": "Church",
+      "type": "youtube",
+      "source": "https://www.youtube.com/watch?v=Rpxih7IEI6U",
+      "duration": "56:01",
+      "thumb": "https://i.ytimg.com/vi/Rpxih7IEI6U/hqdefault.jpg",
+      "desc": "An encouraging message from Prophet T.B. Joshua for every believer facing trials: hold on and keep fighting.",
+      "tags": [
+        "tb joshua",
+        "sermon",
+        "encouragement",
+        "faith"
+      ]
+    },
+    {
+      "id": "c11",
+      "title": "How To Know The Purpose Of Your Life — Dr. Myles Munroe",
+      "channel": "ch-church",
+      "category": "Church",
+      "type": "youtube",
+      "source": "https://www.youtube.com/watch?v=gTgcGlnK1kk",
+      "duration": "1:14:12",
+      "thumb": "https://i.ytimg.com/vi/gTgcGlnK1kk/hqdefault.jpg",
+      "desc": "Dr. Myles Munroe's classic teaching on discovering God's purpose for your life and finding true direction.",
+      "tags": [
+        "myles munroe",
+        "purpose",
+        "teaching",
+        "classic sermon"
+      ]
+    },
+    {
+      "id": "c12",
+      "title": "Unchanging Love — Billy Graham Classic Sermon",
+      "channel": "ch-church",
+      "category": "Church",
+      "type": "youtube",
+      "source": "https://www.youtube.com/watch?v=KX5R7dcTYiU",
+      "duration": "27:32",
+      "thumb": "https://i.ytimg.com/vi/KX5R7dcTYiU/hqdefault.jpg",
+      "desc": "Billy Graham preaches on the unchanging love of God in this classic message from the Billy Graham Evangelistic Association.",
+      "tags": [
+        "billy graham",
+        "classic sermon",
+        "love",
+        "gospel"
+      ]
+    },
+    {
+      "id": "c13",
+      "title": "The Real Meaning of the Cross — Billy Graham Classic Sermon",
+      "channel": "ch-church",
+      "category": "Church",
+      "type": "youtube",
+      "source": "https://www.youtube.com/watch?v=z1mcW0RSW7w",
+      "duration": "27:32",
+      "thumb": "https://i.ytimg.com/vi/z1mcW0RSW7w/hqdefault.jpg",
+      "desc": "Billy Graham explains the real meaning of the cross in this timeless evangelistic message.",
+      "tags": [
+        "billy graham",
+        "classic sermon",
+        "the cross",
+        "gospel"
       ]
     }
   ]
