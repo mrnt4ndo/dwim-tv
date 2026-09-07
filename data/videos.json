@@ -450,21 +450,6 @@
         "the cross",
         "gospel"
       ]
-    },
-    {
-      "id": "v13",
-      "title": "Me at the zoo",
-      "channel": "ch-tech",
-      "category": "Tech",
-      "type": "youtube",
-      "source": "https://www.youtube.com/watch?v=jNQXAC9IVRw",
-      "duration": "0:19",
-      "thumb": "https://i.ytimg.com/vi/jNQXAC9IVRw/hqdefault.jpg",
-      "desc": "Added via DWIM TV admin panel. From YouTube channel: jawed.",
-      "tags": [
-        "test",
-        "first video"
-      ]
     }
   ]
 }
