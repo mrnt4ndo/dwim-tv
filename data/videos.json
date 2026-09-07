@@ -21,6 +21,11 @@
       "icon": "⛪"
     },
     {
+      "id": "ch-songs",
+      "name": "Songs",
+      "icon": "👏"
+    },
+    {
       "id": "ch-docs",
       "name": "Documentaries",
       "icon": "📚"
@@ -449,6 +454,378 @@
         "classic sermon",
         "the cross",
         "gospel"
+      ]
+    },
+    {
+      "id": "c14",
+      "title": "Episode 01 — Rare Footage from Prophet T.B. Joshua's Early Ministry",
+      "channel": "ch-church",
+      "category": "Church",
+      "type": "youtube",
+      "source": "https://www.youtube.com/watch?v=kYwAFfZoxfc",
+      "duration": "1:23",
+      "thumb": "https://i.ytimg.com/vi/kYwAFfZoxfc/hqdefault.jpg",
+      "desc": "The first episode of the recovered early-ministry archive series from Emmanuel TV Connect.",
+      "tags": [
+        "tb joshua",
+        "rare footage",
+        "early ministry",
+        "emmanuel tv"
+      ]
+    },
+    {
+      "id": "c15",
+      "title": "T.B. Joshua — The Daniel of Our Generation",
+      "channel": "ch-church",
+      "category": "Church",
+      "type": "youtube",
+      "source": "https://www.youtube.com/watch?v=Pghh6Njl56o",
+      "duration": "21:18",
+      "thumb": "https://i.ytimg.com/vi/Pghh6Njl56o/hqdefault.jpg",
+      "desc": "A tribute to Prophet T.B. Joshua as the Daniel of our generation — a life of prayer and revelation.",
+      "tags": [
+        "tb joshua",
+        "tribute",
+        "daniel",
+        "prophet"
+      ]
+    },
+    {
+      "id": "c16",
+      "title": "Apostle's Last Prayer with the Prophet",
+      "channel": "ch-church",
+      "category": "Church",
+      "type": "youtube",
+      "source": "https://www.youtube.com/watch?v=jXMDQKMQAag",
+      "duration": "16:56",
+      "thumb": "https://i.ytimg.com/vi/jXMDQKMQAag/hqdefault.jpg",
+      "desc": "An emotional final prayer moment with Prophet T.B. Joshua, captured by Roadmap Ministry International.",
+      "tags": [
+        "tb joshua",
+        "prayer",
+        "roadmap ministry"
+      ]
+    },
+    {
+      "id": "c17",
+      "title": "T.B. Joshua Legacy — How Godly Promotion Comes to You",
+      "channel": "ch-church",
+      "category": "Church",
+      "type": "youtube",
+      "source": "https://www.youtube.com/watch?v=WCAxYzIys2g",
+      "duration": "35:17",
+      "thumb": "https://i.ytimg.com/vi/WCAxYzIys2g/hqdefault.jpg",
+      "desc": "A legacy teaching from Prophet T.B. Joshua on how God promotes His children in His own way and time.",
+      "tags": [
+        "tb joshua",
+        "legacy",
+        "promotion",
+        "teaching"
+      ]
+    },
+    {
+      "id": "c18",
+      "title": "How to Receive and Maintain Deliverance — Prophet T.B. Joshua",
+      "channel": "ch-church",
+      "category": "Church",
+      "type": "youtube",
+      "source": "https://www.youtube.com/watch?v=Jf01meV5zpw",
+      "duration": "35:03",
+      "thumb": "https://i.ytimg.com/vi/Jf01meV5zpw/hqdefault.jpg",
+      "desc": "Prophet T.B. Joshua teaches how to receive deliverance and, just as importantly, how to keep it.",
+      "tags": [
+        "tb joshua",
+        "deliverance",
+        "teaching",
+        "prayer"
+      ]
+    },
+    {
+      "id": "c19",
+      "title": "Morning Prayer — Distance Is Not a Barrier",
+      "channel": "ch-church",
+      "category": "Church",
+      "type": "youtube",
+      "source": "https://www.youtube.com/watch?v=S0cjWCZQrbk",
+      "duration": "11:37",
+      "thumb": "https://i.ytimg.com/vi/S0cjWCZQrbk/hqdefault.jpg",
+      "desc": "Pray along with Prophet T.B. Joshua. Distance is not a barrier — begin your morning in God's presence.",
+      "tags": [
+        "tb joshua",
+        "morning prayer",
+        "distance is not a barrier",
+        "prayer"
+      ]
+    },
+    {
+      "id": "c20",
+      "title": "Prophet T.B. Joshua's Extraordinary Anointing",
+      "channel": "ch-church",
+      "category": "Church",
+      "type": "youtube",
+      "source": "https://www.youtube.com/watch?v=9TQRM5hskGw",
+      "duration": "24:13",
+      "thumb": "https://i.ytimg.com/vi/9TQRM5hskGw/hqdefault.jpg",
+      "desc": "A look at the extraordinary anointing upon Prophet T.B. Joshua's life and ministry.",
+      "tags": [
+        "tb joshua",
+        "anointing",
+        "ministry"
+      ]
+    },
+    {
+      "id": "c21",
+      "title": "T.B. Joshua's Humble Beginnings",
+      "channel": "ch-church",
+      "category": "Church",
+      "type": "youtube",
+      "source": "https://www.youtube.com/watch?v=cHg85huU0ns",
+      "duration": "47:08",
+      "thumb": "https://i.ytimg.com/vi/cHg85huU0ns/hqdefault.jpg",
+      "desc": "From a humble start to a worldwide ministry — the story of Prophet T.B. Joshua's beginnings.",
+      "tags": [
+        "tb joshua",
+        "humble beginnings",
+        "biography",
+        "early ministry"
+      ]
+    },
+    {
+      "id": "c22",
+      "title": "This Is My Life — T.B. Joshua Full Documentary",
+      "channel": "ch-church",
+      "category": "Church",
+      "type": "youtube",
+      "source": "https://www.youtube.com/watch?v=vQ5XWIZIPX8",
+      "duration": "1:10:10",
+      "thumb": "https://i.ytimg.com/vi/vQ5XWIZIPX8/hqdefault.jpg",
+      "desc": "A full documentary on Prophet T.B. Joshua's life and journey, told in his own words.",
+      "tags": [
+        "tb joshua",
+        "documentary",
+        "biography",
+        "life story"
+      ]
+    },
+    {
+      "id": "c23",
+      "title": "30 Most Powerful & Anointed Life-Changing Prayers of Prophet T.B. Joshua",
+      "channel": "ch-church",
+      "category": "Church",
+      "type": "youtube",
+      "source": "https://www.youtube.com/watch?v=2Z-4QsYeruc",
+      "duration": "7:52:14",
+      "thumb": "https://i.ytimg.com/vi/2Z-4QsYeruc/hqdefault.jpg",
+      "desc": "A massive compilation of 30 powerful, anointed, life-changing prayers with Prophet T.B. Joshua — hours of prayer to return to again and again.",
+      "tags": [
+        "tb joshua",
+        "prayers",
+        "compilation",
+        "anointed"
+      ]
+    },
+    {
+      "id": "s1",
+      "title": "I Love You Lord — Original Song (Composed by T.B. Joshua)",
+      "channel": "ch-songs",
+      "category": "Songs",
+      "type": "youtube",
+      "source": "https://www.youtube.com/watch?v=lFMcyWBCVlk",
+      "duration": "8:21",
+      "thumb": "https://i.ytimg.com/vi/lFMcyWBCVlk/hqdefault.jpg",
+      "desc": "I love You Lord, greater than anything. The beloved original composition of Prophet T.B. Joshua, sung by the Emmanuel TV choir.",
+      "tags": [
+        "tb joshua",
+        "songs",
+        "i love you lord",
+        "worship"
+      ]
+    },
+    {
+      "id": "s2",
+      "title": "I Love You Lord — Original Song (Composed by T.B. Joshua)",
+      "channel": "ch-songs",
+      "category": "Songs",
+      "type": "youtube",
+      "source": "https://www.youtube.com/watch?v=Zov84MmRrZE",
+      "duration": "17:45",
+      "thumb": "https://i.ytimg.com/vi/Zov84MmRrZE/hqdefault.jpg",
+      "desc": "An extended rendition of the cherished composition of Prophet T.B. Joshua, sung by the SCOAN choir.",
+      "tags": [
+        "tb joshua",
+        "songs",
+        "i love you lord",
+        "scoan choir"
+      ]
+    },
+    {
+      "id": "s3",
+      "title": "Son of David, Have Mercy on Me — T.B. Joshua Composition",
+      "channel": "ch-songs",
+      "category": "Songs",
+      "type": "youtube",
+      "source": "https://www.youtube.com/watch?v=65krlZYWfjk",
+      "duration": "9:00",
+      "thumb": "https://i.ytimg.com/vi/65krlZYWfjk/hqdefault.jpg",
+      "desc": "Son of David, have mercy on me — the original song composed by Prophet T.B. Joshua, sung by the SCOAN choir.",
+      "tags": [
+        "tb joshua",
+        "songs",
+        "son of david",
+        "scoan choir"
+      ]
+    },
+    {
+      "id": "s4",
+      "title": "Oluranlowo (You Are My Helper) — T.B. Joshua Composition",
+      "channel": "ch-songs",
+      "category": "Songs",
+      "type": "youtube",
+      "source": "https://www.youtube.com/watch?v=pPudXRrCh_I",
+      "duration": "9:00",
+      "thumb": "https://i.ytimg.com/vi/pPudXRrCh_I/hqdefault.jpg",
+      "desc": "Oluranlowo — My Helper, oh God You are. An original Yoruba-English composition of Prophet T.B. Joshua, sung by the Emmanuel TV choir.",
+      "tags": [
+        "tb joshua",
+        "songs",
+        "oluranlowo",
+        "my helper"
+      ]
+    },
+    {
+      "id": "s5",
+      "title": "Thank You Lord — Composed by Prophet T.B. Joshua",
+      "channel": "ch-songs",
+      "category": "Songs",
+      "type": "youtube",
+      "source": "https://www.youtube.com/watch?v=KkMUfA8po0I",
+      "duration": "4:28",
+      "thumb": "https://i.ytimg.com/vi/KkMUfA8po0I/hqdefault.jpg",
+      "desc": "A simple, heartfelt composition of Prophet T.B. Joshua: Thank You Lord.",
+      "tags": [
+        "tb joshua",
+        "songs",
+        "thank you lord",
+        "gratitude"
+      ]
+    },
+    {
+      "id": "s6",
+      "title": "Hallelujah — Original Song (Composed by T.B. Joshua)",
+      "channel": "ch-songs",
+      "category": "Songs",
+      "type": "youtube",
+      "source": "https://www.youtube.com/watch?v=manmmps6tZY",
+      "duration": "8:53",
+      "thumb": "https://i.ytimg.com/vi/manmmps6tZY/hqdefault.jpg",
+      "desc": "Hallelujah! An original song composed by Prophet T.B. Joshua, lifted by the Emmanuel TV singers.",
+      "tags": [
+        "tb joshua",
+        "songs",
+        "hallelujah",
+        "praise"
+      ]
+    },
+    {
+      "id": "s7",
+      "title": "Come and Dwell — Original Song (Composed by T.B. Joshua)",
+      "channel": "ch-songs",
+      "category": "Songs",
+      "type": "youtube",
+      "source": "https://www.youtube.com/watch?v=b-XK2RpfT9Y",
+      "duration": "8:38",
+      "thumb": "https://i.ytimg.com/vi/b-XK2RpfT9Y/hqdefault.jpg",
+      "desc": "Come and dwell in me, Holy Spirit — the original composition of Prophet T.B. Joshua.",
+      "tags": [
+        "tb joshua",
+        "songs",
+        "come and dwell",
+        "holy spirit"
+      ]
+    },
+    {
+      "id": "s8",
+      "title": "Acknowledge God — SCOAN Choir (Composed by T.B. Joshua)",
+      "channel": "ch-songs",
+      "category": "Songs",
+      "type": "youtube",
+      "source": "https://www.youtube.com/watch?v=m3_ATYU-9J4",
+      "duration": "7:21",
+      "thumb": "https://i.ytimg.com/vi/m3_ATYU-9J4/hqdefault.jpg",
+      "desc": "Acknowledge God in all your ways. The SCOAN choir sings the original composition of Prophet T.B. Joshua.",
+      "tags": [
+        "tb joshua",
+        "songs",
+        "acknowledge god",
+        "scoan choir"
+      ]
+    },
+    {
+      "id": "s9",
+      "title": "I Am Loved by God — Emmanuel TV Singers (T.B. Joshua Composition)",
+      "channel": "ch-songs",
+      "category": "Songs",
+      "type": "youtube",
+      "source": "https://www.youtube.com/watch?v=RFdOkiPEQJI",
+      "duration": "6:09",
+      "thumb": "https://i.ytimg.com/vi/RFdOkiPEQJI/hqdefault.jpg",
+      "desc": "I am loved by God — worship with the Emmanuel TV singers in this original T.B. Joshua composition.",
+      "tags": [
+        "tb joshua",
+        "songs",
+        "i am loved by god",
+        "worship"
+      ]
+    },
+    {
+      "id": "s10",
+      "title": "I Belong to You — Emmanuel Singers (SCOAN)",
+      "channel": "ch-songs",
+      "category": "Songs",
+      "type": "youtube",
+      "source": "https://www.youtube.com/watch?v=jSZMcKssvYw",
+      "duration": "16:09",
+      "thumb": "https://i.ytimg.com/vi/jSZMcKssvYw/hqdefault.jpg",
+      "desc": "I belong to You — the Emmanuel singers of SCOAN in worshipful song.",
+      "tags": [
+        "tb joshua",
+        "songs",
+        "i belong to you",
+        "emmanuel singers"
+      ]
+    },
+    {
+      "id": "s11",
+      "title": "Lighten the Word — Original Song (Composed by T.B. Joshua)",
+      "channel": "ch-songs",
+      "category": "Songs",
+      "type": "youtube",
+      "source": "https://www.youtube.com/watch?v=IXgmsSDfGRY",
+      "duration": "14:42",
+      "thumb": "https://i.ytimg.com/vi/IXgmsSDfGRY/hqdefault.jpg",
+      "desc": "Lighten the Word of God in our hearts — an original song composed by Prophet T.B. Joshua.",
+      "tags": [
+        "tb joshua",
+        "songs",
+        "lighten the word",
+        "worship"
+      ]
+    },
+    {
+      "id": "s12",
+      "title": "Free Access — Original Song (Composed by T.B. Joshua)",
+      "channel": "ch-songs",
+      "category": "Songs",
+      "type": "youtube",
+      "source": "https://www.youtube.com/watch?v=p32BRY2xCvo",
+      "duration": "7:56",
+      "thumb": "https://i.ytimg.com/vi/p32BRY2xCvo/hqdefault.jpg",
+      "desc": "Free access — through the blood of Jesus. An original song composed by Prophet T.B. Joshua, sung by the Emmanuel TV singers.",
+      "tags": [
+        "tb joshua",
+        "songs",
+        "free access",
+        "worship"
       ]
     }
   ]
