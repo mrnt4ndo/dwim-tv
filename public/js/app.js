@@ -62,6 +62,12 @@ async function loadCatalog() {
   }
 }
 
+/* Live refresh: when the admin panel adds/removes a video, update this tab */
+if ('BroadcastChannel' in window) {
+  const bc = new BroadcastChannel('dwim-tv');
+  bc.onmessage = (e) => { if (e.data && e.data.t === 'catalog-changed') loadCatalog(); };
+}
+
 /* ---------- Render ---------- */
 function render() {
   renderChannels();

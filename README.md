@@ -2,6 +2,8 @@
 
 A TV-style streaming web app that runs entirely on **Render's free tier** — with a built-in solution for the "where do I store videos?" problem.
 
+**New:** Custom logo, plus an **Admin Panel** (`/admin.html`) — log in and add videos by YouTube URL straight from your browser. Changes are saved to the catalog **and auto-committed back to your GitHub repo**, so they survive Render free-tier restarts.
+
 ## The Big Idea (read this first!)
 
 Render's free tier has **ephemeral storage** — any video file you upload to the server gets wiped on every redeploy. Uploading a 500MB video through Render would also be painful and slow.
@@ -39,7 +41,29 @@ npm start
 
 This is the part you asked about. **You never upload videos to Render.** Instead:
 
-### 1. YouTube videos (easiest)
+### Option 0 — the Admin Panel (easiest, no code!)
+
+1. Open `https://YOURAPP.onrender.com/admin.html` (also linked in the site footer).
+2. Log in — default credentials: **username `ntando`, password `ntando`**.
+3. Paste any YouTube URL or video ID → click **Check** → the real title & channel are fetched from YouTube.
+4. Pick a channel (or create a new one on the fly), hit **Add Video** — done.
+5. The video appears on the site instantly, and the catalog change is **committed back to your GitHub repo automatically** (if you set `GITHUB_TOKEN` — see below).
+
+> **Render free-tier note:** the disk is wiped on every redeploy. The admin panel handles this for you: every add/delete writes the catalog to disk *and* pushes it to GitHub, so when Render rebuilds from your repo, your videos are still there. Without `GITHUB_TOKEN`, changes live only until the next restart.
+
+**Admin credentials** come from environment variables (set them in Render → Environment):
+
+```
+ADMIN_USER=ntando
+ADMIN_PASS=ntando
+GITHUB_TOKEN=ghp_xxxxxxxxxxxx        # a token with repo write access
+GITHUB_REPO=mrnt4ndo/dwim-tv         # owner/name
+GITHUB_BRANCH=main
+```
+
+> ⚠️ Change `ADMIN_PASS` before going public! The defaults are for testing.
+
+### 1. YouTube videos (manual way)
 
 Add an entry to `data/videos.json`:
 
@@ -123,17 +147,20 @@ Channels are also in `data/videos.json`. Add one like:
 
 ```
 dwim-tv/
-├── server.js            # Express server + catalog API
+├── server.js            # Express server + catalog API + admin auth & GitHub sync
 ├── package.json
 ├── render.yaml          # Render blueprint (free plan)
 ├── Procfile             # Fallback for other hosts (Heroku-style)
 ├── data/
-│   └── videos.json      # ⭐ YOUR CATALOG — edit this to add videos
+│   └── videos.json      # ⭐ YOUR CATALOG — edit this to add videos (or use the admin panel)
 └── public/
     ├── index.html       # TV-style UI
+    ├── admin.html       # 🔐 Admin panel (login + add/delete videos)
     ├── css/styles.css   # Dark cinematic theme
+    ├── css/admin.css    # Admin panel styles
     ├── js/app.js        # Channels, search, player logic
-    └── img/             # Local thumbnails for your own videos
+    ├── js/admin.js      # Admin panel logic
+    └── img/             # Logo, favicons & local thumbnails
 ```
 
 ## Tips

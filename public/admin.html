@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DWIM TV — Admin Panel</title>
+  <meta name="robots" content="noindex">
+  <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32.png">
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/admin.css">
+<script src="https://sites.super.myninja.ai/_assets/ninja-daytona-script.js"></script>
+</head>
+<body class="admin-body">
+
+  <!-- ===== Login Screen ===== -->
+  <div class="admin-login" id="loginScreen">
+    <div class="login-card">
+      <img src="img/logo-192.png" alt="DWIM TV" class="login-logo">
+      <h1>Admin Panel</h1>
+      <p class="login-sub">Sign in to manage DWIM TV</p>
+      <form id="loginForm" autocomplete="off">
+        <label>Username
+          <input id="loginUser" type="text" placeholder="Username" required>
+        </label>
+        <label>Password
+          <input id="loginPass" type="password" placeholder="Password" required>
+        </label>
+        <div class="form-msg" id="loginMsg"></div>
+        <button class="btn-admin-primary" type="submit">Sign In</button>
+      </form>
+      <a class="back-link" href="index.html">← Back to DWIM TV</a>
+    </div>
+  </div>
+
+  <!-- ===== Dashboard ===== -->
+  <div class="admin-dash" id="dash" style="display:none">
+    <header class="admin-topbar">
+      <a class="brand" href="index.html">
+        <span class="tv-icon"><img src="img/logo-64.png" alt="DWIM TV"></span>
+        <span>DWIM <b>TV</b> — Admin</span>
+      </a>
+      <div class="admin-top-right">
+        <span class="admin-badge">👤 <span id="whoami">ntando</span></span>
+        <a href="index.html" class="btn-admin-ghost" target="_blank">View Site ↗</a>
+        <button class="btn-admin-ghost" onclick="logout()">Log Out</button>
+      </div>
+    </header>
+
+    <main class="admin-main">
+      <h2>Add a Video</h2>
+      <p class="hint">Paste any YouTube link or 11-character video ID. I'll fetch the real title &amp; channel from YouTube.</p>
+
+      <form id="addForm" class="add-card">
+        <div class="row">
+          <label class="grow">YouTube URL or ID
+            <input id="vidUrl" type="text" placeholder="https://www.youtube.com/watch?v=…" required>
+          </label>
+          <button type="button" class="btn-admin-primary" id="btnVerify">Check</button>
+        </div>
+
+        <div id="verifyBox" class="verify-box" style="display:none">
+          <img id="vThumb" src="" alt="">
+          <div class="verify-meta">
+            <b id="vTitle">—</b>
+            <span id="vAuthor">—</span>
+            <span id="vId" class="mono">—</span>
+          </div>
+        </div>
+
+        <div class="row two">
+          <label>Title <input id="vidTitle" type="text" placeholder="Leave empty to use the YouTube title"></label>
+          <label>Duration <input id="vidDur" type="text" placeholder="e.g. 12:34 or 1:05:00 (optional)"></label>
+        </div>
+
+        <label>Channel
+          <select id="vidChannel"></select>
+        </label>
+        <label class="newch-toggle">
+          <input type="checkbox" id="newChToggle" onchange="toggleNewCh()">
+          Create a new channel instead
+        </label>
+        <div id="newChBox" style="display:none" class="row two">
+          <label>New channel name <input id="newChName" type="text" placeholder="e.g. Sports"></label>
+          <label>Icon (emoji) <input id="newChIcon" type="text" placeholder="⚽" maxlength="4"></label>
+        </div>
+
+        <label>Description <textarea id="vidDesc" rows="2" placeholder="Optional — shown under the video"></textarea></label>
+        <label>Tags <input id="vidTags" type="text" placeholder="comma,separated,tags (optional)"></label>
+
+        <div class="form-msg" id="addMsg"></div>
+        <button class="btn-admin-primary" type="submit" id="btnAdd">➕ Add Video to DWIM TV</button>
+      </form>
+
+      <h2 style="margin-top:38px">Catalog <span id="stats" class="stat-pill"></span></h2>
+      <div class="table-wrap">
+        <table class="admin-table" id="vidTable">
+          <thead>
+            <tr><th>Thumb</th><th>Title</th><th>Channel</th><th>Duration</th><th>ID</th><th></th></tr>
+          </thead>
+          <tbody id="tbody"></tbody>
+        </table>
+      </div>
+    </main>
+
+    <footer class="footer">
+      <p><b>DWIM TV</b> — Admin Panel. Changes are saved to the catalog and synced to GitHub automatically.</p>
+    </footer>
+  </div>
+
+  <script src="js/admin.js"></script>
+</body>
+</html>

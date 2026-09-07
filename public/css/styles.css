@@ -63,6 +63,14 @@ input { font-family: inherit; }
   place-items: center;
   font-size: 17px;
   box-shadow: 0 0 18px rgba(229, 9, 20, 0.55);
+  overflow: hidden;
+}
+
+.brand .tv-icon img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
 }
 
 .brand b { color: var(--accent); }
@@ -510,6 +518,13 @@ input { font-family: inherit; }
 }
 
 .footer b { color: var(--text-dim); }
+
+.footer .admin-link a {
+  color: var(--text-dim);
+  text-decoration: underline;
+  font-weight: 700;
+}
+.footer .admin-link a:hover { color: var(--accent); }
 
 /* ---------- Responsive ---------- */
 @media (max-width: 720px) {
